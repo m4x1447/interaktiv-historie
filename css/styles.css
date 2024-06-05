@@ -1,0 +1,70 @@
+
+body {
+    margin: auto;
+    width: 43%;
+    padding: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    overflow: hidden;
+    background-image: url("../images/background.png");
+    background-repeat: no-repeat;
+}
+
+span {
+    color: orange;
+}
+
+.ageDisclaimer {
+    border-radius: 6px;
+    background-color: black;
+    padding: 4rem 2rem;
+    display: inline-block !important;
+}
+
+.ageDisclaimer .mcontent {
+    color: white;
+    text-align: center;
+}
+
+.ageDisclaimer .mcontent .h3 {
+    background-color: initial;
+    line-height: initial;
+    padding: 0;
+    text-decoration: none;
+}
+
+.ageDisclaimer .mcontent .p {
+    font-size: 1.25rem;
+    margin: 0;
+    color: #ccc;
+}
+
+.ageDisclaimer .mcontent a {
+    background-color: orange;
+    text-decoration: none;
+    border: 0;
+    border-radius: 4px;
+    color: black;
+    margin-top: 3rem;
+    font-size: 1.25rem;
+    width: 20rem;
+    max-width: 100%;
+    padding: 1rem;
+    font-weight: 700;
+}
+
+.ageDisclaimer .mcontent .underage {
+    border: 0;
+    border-radius: 4px;
+    text-decoration: none;
+    background: #1f1f11;
+    margin-left: 10px;
+    color: white;
+    margin-top: 3rem;
+    font-size: 1.25rem;
+    width: 20rem;
+    max-width: 100%;
+    padding: 1rem;
+    font-weight: 700;
+}
+

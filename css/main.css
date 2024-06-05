@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+body {
+    font-family: "Pixelify Sans", sans-serif;
+    margin: 0;
+}
+
+.root {
+    height: 100vh;
+    background-image: url("../images/background.png");
+    background-size: cover;
+}
+
+.greeting {
+    width: 100%;
+    border: 1px red;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-top: 80px;
+}
+
+.greeting h1 {
+    font-size: 4rem;
+}
+
+.container {
+    margin: auto;
+    padding: 40px;
+    width: 42rem;
+    display: flex;
+}
+
+.buttonContainer {
+    margin: 100px;
+    display: block;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.pixel2:active {
+    top: 2px;
+}
+
+.pixel2 {
+    margin-bottom: 10px;
+    position: relative;
+    display: block;
+    margin: 10px;
+    text-transform: uppercase;
+    
+    font-size: 25px;
+    color: white;
+}
+
+.pixel2::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 10px;
+    bottom: 10px;
+    left: -10px;
+    right: -10px;
+    background: black;
+    z-index: -1;
+}
+  
+.pixel2::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 4px;
+    bottom: 4px;
+    left: -6px;
+    right: -6px;
+    background: black;
+    z-index: -1;
+}
+  
+.pixel2 {
+    padding: 10px 10px;
+    position: relative;
+    background: black;
+    width: auto;
+    z-index: 2;
+}
+  
+
+.container .character {
+    position: relative;
+    bottom: 40px;
+    left: 12rem;
+}
+
+/* Root2 */
+
+.root2 {
+    height: 100vh;
+    background-image: url(../images/mountains.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.root2 .speechbubble {
+    position: absolute;
+    margin-left: 520px;
+    margin-top: 380px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#hidegif2 {
+    display: none;
+}
+
+.root2 .arrow img{
+    position: relative;
+    height: 40px;
+    width: 40px;
+}
+
+.buttonContainer2 {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.freeze {
+    animation-play-state: running;
+}
+
+.root3 {
+    height: 100vh;
+    background-image: url("https://i.giphy.com/TbONGqAdpTWQW3Hz5V.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
